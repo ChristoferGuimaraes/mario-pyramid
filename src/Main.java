@@ -9,10 +9,10 @@ public class Main {
         System.out.println("Set the half pyramid high:");
 
 
-        if (scan.hasNextInt()) {
-            int validNum = scan.nextInt();
-            for (int i = validNum; i >= 1; i--) {
-                for (int j = i; j <= validNum; j++) {
+        if (scan.hasNextByte()) {
+            byte validNum = scan.nextByte();
+            for (byte i = validNum; i >= 1; i--) {
+                for (byte j = i; j <= validNum; j++) {
                     System.out.print('#');
                 }
                 if (i != 1) {
